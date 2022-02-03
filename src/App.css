@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background: linear-gradient(to top right, #0033cc 0%, #ff33cc 100%);
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,16 +17,17 @@
 }
 
 .App-header {
-  background: linear-gradient(to top right, #0033cc 0%, #ff33cc 100%);
 
-  min-height: 100vh;
+
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 3rem;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,4 +40,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.kast {
+
+  border: solid 1px #222;
+  border-radius: 4px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40rem;
+  height: 35rem;
+  color: white;
+}
+
+.chatbox {
+  background-color: #666;
+  border-radius: 4px;
+  padding: 2rem;
+  margin: auto;
+  height: 10px;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
