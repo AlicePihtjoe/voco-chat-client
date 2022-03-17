@@ -1,0 +1,32 @@
+[
+{
+  "id": 1,
+  "username": "Jane Smith",
+  "message": "Lorem ipsum lorem ipsum lorem ipsum",
+  "date": "2021-02-01T21:30:52.123Z"
+},
+  {
+    "id": 2,
+    "username": "John Smith",
+    "message": "Lorem ipsum lorem ipsum lorem ipsum",
+    "date": "2021-02-01T21:30:52.123Z"
+  },
+  {
+    "id": 3,
+    "username": "Max Smith",
+    "message": "Lorem ipsum lorem ipsum lorem ipsum",
+    "date": "2021-02-01T28:30:52.123Z"
+  },
+  {
+    "id": 4,
+    "username": "Lord Smith",
+    "message": "Lorem ipsum lorem ipsum lorem ipsum",
+    "date": "2021-02-01T21:30:52.123Z"
+  },
+  {
+    "id": 5,
+    "username": "Mary Smith",
+    "message": "Lorem ipsum lorem ipsum lorem ipsum",
+    "date": "2021-02-01T21:30:52.123Z"
+  }
+]

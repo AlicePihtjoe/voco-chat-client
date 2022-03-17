@@ -1,37 +1,22 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
-import {Col, Container} from "react-bootstrap";
-import Stack from 'react-bootstrap/Stack'
-
-
+import './components/chat/Chatbox.jsx';
+import './components/chat/Kaart/kaart2.jsx';
+import Chatbox from "./components/chat/Chatbox";
 
 function App() {
-    return(
-        <div className="App">
-            <header className="App-header">VOCO</header>
+   return(
+       <div className="background">
+           <div className="voco_heading">VOCO Chat</div>
+           <div className="chatContainer">
+             <Chatbox/>
+           </div>
 
-            <Container className="kast">
-
-
-                <Stack gap={6}>
-                    <div className="chatbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    <div className="chatbox">Quisque venenatis neque non lorem scelerisque, quis rutrum tellus tempor. et iaculis libero vestibulum vel</div>
-                    <div className="chatbox">Interdum et malesuada fames ac ante ipsum primis in faucibus. </div>
-                    <div className="chatbox">First item</div>
-                    <div className="chatbox">Second item</div>
-                    <div className="chatbox">Third item</div>
-                </Stack>
-
-            </Container>
+       </div>
+   )
 
 
 
-
-        </div>
-
-
-    )
 }
 
 export default App;
