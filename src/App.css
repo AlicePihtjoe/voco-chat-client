@@ -2,9 +2,9 @@
 .background {
 
 
-    background: linear-gradient(to bottom left, #ff33cc 0%, #0000ff 100%);
+    background: linear-gradient(to bottom left, #FF0080 0%, #0000FF  100%);
     /*background-color: #282c34;*/
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     /*align-items: center;
@@ -19,24 +19,66 @@
 }
 
 .chatContainer {
-    height: 500px;
+    height: 550px;
     width: 550px;
-    margin: auto;
-    margin-bottom: auto;
+    margin-left: 30rem;
+    padding-top: 2rem;
     border-radius: 7px;
     text-align: center;
-
     background-color: #222;
 }
 
 
 .chatBox {
-   background: #555;
-   margin-bottom: 1rem;
-   border-radius: 7px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    height: 4rem;
+    background: #555;
+    margin: 1.5rem;
+    border-radius: 7px;
+    height: 4.5rem;
     font-size: 12px;
 }
 
+.input_field {
+    height: 70px;
+    width: 550px;
+    color: black;
+    border-radius: 0px 0px 7px 7px;
+    text-align: left;
+    background-color: white;
+
+}
+
+.IF {
+    width: 400px;
+    height: 63px;
+    border-color: white;
+    border-style: solid;
+    border-left-color: grey;
+    padding-left: 1.5rem;
+}
+
+.input_name {
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.send_btn {
+    border-color: white;
+    border-width: 3px;
+    background: Transparent;
+    color: white;
+    margin-left: 450px;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-weight:bold;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    border-style: solid;
+
+}

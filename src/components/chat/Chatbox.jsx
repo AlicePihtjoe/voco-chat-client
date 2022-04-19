@@ -3,19 +3,21 @@ import Kaart2 from "./Kaart/kaart2";
 import data from '../../Data.json';
 
 
+
 function Chatbox(props) {
     return (
-        <div className="chatBox">
+        <div>
 
             {data.map((item) => {
             return(<Kaart2
             message={item.message}
             username={item.username}
-            date={item.date} />)
+            date={item.date}/>)
             })}
 
-
         </div>
+
+
     );
 }
 
