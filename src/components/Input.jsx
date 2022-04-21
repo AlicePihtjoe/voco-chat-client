@@ -2,11 +2,11 @@ import React from 'react';
 
 function Input({placeholder}) {
     return (
-        <form class="input_field">
-            <label class="input_name">
-                user   <input type="text" name="Chatbox" class="IF" placeholder="Type message here..." />
+        <form className="input_field">
+            <label className="input_name">
+                user   <input type="text" name="Chatbox" className="IF" placeholder="Type message here..." />
             </label>
-            <input type="submit" value="Send" class="send_btn" />
+            <input type="submit" value="Send" className="send_btn" />
         </form>
         );
 }
