@@ -1,12 +1,13 @@
 import React from 'react';
 
-function Input({placeholder}) {
+function Input({placeholder, onChange, value}) {
     return (
         <form className="input_field">
-            <label className="input_name">
-                user   <input type="text" name="Chatbox" className="IF" placeholder="Type message here..." />
+            <label className="input_field">
+              user  <input type="text" name="Chatbox" className="IF" placeholder={placeholder} value={value}
+                           onChange = {(e) => onChange(e.target.value)} />
             </label>
-            <input type="submit" value="Send" className="send_btn" />
+
         </form>
         );
 }

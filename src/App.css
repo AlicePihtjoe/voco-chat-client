@@ -4,7 +4,7 @@
 
     background: linear-gradient(to bottom left, #FF0080 0%, #0000FF  100%);
     /*background-color: #282c34;*/
-    min-height: 110vh;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
     /*align-items: center;
@@ -41,7 +41,7 @@
     height: 70px;
     width: 550px;
     color: black;
-    border-radius: 0px 0px 7px 7px;
+    border-radius: 0px 0px 0px 0px;
     text-align: left;
     background-color: white;
 
@@ -52,7 +52,6 @@
     height: 63px;
     border-color: white;
     border-style: solid;
-    border-left-color: black;
     padding-left: 1.5rem;
 }
 
@@ -81,4 +80,19 @@
     margin-top: 2rem;
     border-style: solid;
 
+
+}
+
+.send_btn:hover {
+    background: rgba(255, 0, 0, 0.2);
+
+}
+
+.inputBottom {
+    height: 70px;
+    width: 550px;
+    color: black;
+    border-radius: 0px 0px 7px 7px;
+    text-align: left;
+    background-color: white;
 }

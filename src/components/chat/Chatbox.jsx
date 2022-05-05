@@ -1,18 +1,21 @@
 import React from 'react';
 import Kaart2 from "./Kaart/kaart2";
 import data from '../../Data.json';
+import {useState} from "react";
+import {useEffect} from "react";
 
 
 
-function Chatbox(props) {
+function Chatbox({messages}) {
+
     return (
         <div>
 
-            {data.map((item) => {
+            {messages.map((item) => {
             return(<Kaart2
             message={item.message}
             username={item.username}
-            date={item.date}/>)
+            date={item.date} />)
             })}
 
         </div>
